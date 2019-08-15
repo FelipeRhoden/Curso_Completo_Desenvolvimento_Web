@@ -6,9 +6,33 @@
 
     <style type="text/css">
 
-        .texto{
-            font-size: 1.5em;
+        p{
+            font-size: 30px;
+            font-family: "Georgia";
         }
+
+        .texto{
+            font-size: 20px; /*px, %, em */
+        }
+
+        .negrito{
+            font-weight: bold; /*100 até 900*/
+        }
+
+        .estilo{
+            font-style: italic;
+           /* font-style: oblique;
+*/        }
+
+            .texto-padrao{
+                font: bold 40px "Palatino Limotype", "book Antiqua", Palatino, serif;
+            }
+
+            .formatacao{
+                /*text-decoration: underline;*/
+                /*text-decoration: overline;*/
+                text-decoration: line-through;
+            }
 
     </style>
 
@@ -16,10 +40,12 @@
 
 <body>
 
-    <p class="texto">Lorem ipsum dolor sit amet, 
+    <p class="texto">Lorem ipsum <span class="formatacao">dolor</span> sit amet, 
         consectetur adipiscing elit.</p>
-    <p>Conteúdo 1</p>
-    <p>Conteúdo 2</p>
+    <p class="negrito">Conteúdo 1</p>
+    <p class="estilo">Conteúdo 2</p>
+    <p class="">Conteudo 3</p>
+    <p class="texto-padrao">Conteudo 4</p>
 
 </body>
 
