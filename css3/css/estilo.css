@@ -74,3 +74,16 @@
     animation: animacao-box 5s 3s 2 alternate;
 }
 
+#box-transicao{
+    width: 300px;
+    height: 300px;
+    background: orange;
+    transition: all 2s;
+}
+
+#box-transicao:hover{
+    width: 400px;
+    background: black;
+    /*transition: background 1s, width 2s;*/
+    transition: all 2s;
+}
